@@ -35,10 +35,10 @@ Designing a 3-bit adder on the DE10-lite FPGA board using 6 switches (3 for each
 3- Then It detects an Object/Person while it is detecting smoke, displays “P FIRE” and the other 5 detecting people LEDs are ON also:
 
 
-* For better description, check the 2 word documents that were made to explain how it works better.
+* For better description, check the 2 word report documents (DSD Assignment Report, DSD Project Report) that were made to explain the implementation thoroughly.
 
 
 # Technologies
 * Quartus (Quartus Prime 21.1)
-* VDHL
+* VHDL
 
