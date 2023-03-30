@@ -28,11 +28,11 @@ Designing a 3-bit adder on the DE10-lite FPGA board using 6 switches (3 for each
 
 - The whole circuit worked as planned and did all the steps. At first it displays “E SAFE” when there is not any smoke and no LEDs are on, but where there is any smoke detected, it displayed “E FIRE” or “P FIRE” depending on if there are objects/people moving in the area that has smoke and first 5 LEDs are ON indicating there is fire. If people are moving (inside that area that is on fire), then it should display “P FIRE” indicating there are people and the other 5 LEDS for moving objects/people are ON (10 LEDs ON in total (5 LEDs for Fire and 5 LEDs for detecting people/moving objects)). If there are not any people/moving objects, it should display “E FIRE” (E stands for Empty (no people) and P stands for People). 
 
-1- At first no smoke, displays “E SAFE” and no LEDs are ON:
+    1- At first no smoke, displays “E SAFE” and no LEDs are ON:
 
-2- Then It detects a smoke, displays “E FIRE” and the 5 fire LEDs are ON:
+    2- Then It detects a smoke, displays “E FIRE” and the 5 fire LEDs are ON:
 
-3- Then It detects an Object/Person while it is detecting smoke, displays “P FIRE” and the other 5 detecting people LEDs are ON also:
+    3- Then It detects an Object/Person while it is detecting smoke, displays “P FIRE” and the other 5 detecting people LEDs are ON also:
 
 
 * For better description, check the two Microsoft word reports/documents (DSD Assignment Report, DSD Project Report) that were made to explain the implementation thoroughly.
